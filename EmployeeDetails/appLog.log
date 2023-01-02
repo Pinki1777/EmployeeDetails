@@ -1,55 +1,140 @@
-2022-12-26 15:14:36,287 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Starting EmployeeDetailsApplication using Java 1.8.0_333 on LTIN344858 with PID 64704 (C:\Users\2048604\Downloads\EmployeeDetails\EmployeeDetails\target\classes started by 2048604 in C:\Users\2048604\Downloads\EmployeeDetails\EmployeeDetails)
-2022-12-26 15:14:36,288 [DEBUG] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
-2022-12-26 15:14:36,289 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] No active profile set, falling back to default profiles: default
-2022-12-26 15:14:36,363 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-26 15:14:36,363 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-26 15:14:37,355 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-26 15:14:37,465 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
-2022-12-26 15:14:38,658 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
-2022-12-26 15:14:38,676 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
-2022-12-26 15:14:38,676 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-12-26 15:14:38,806 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
-2022-12-26 15:14:38,806 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2442 ms
-2022-12-26 15:14:38,882 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
-2022-12-26 15:14:39,690 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
-2022-12-26 15:14:39,705 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDetails'
-2022-12-26 15:14:40,073 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-26 15:14:40,183 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
-2022-12-26 15:14:40,498 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-12-26 15:14:40,707 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-12-26 15:14:41,995 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-26 15:14:42,017 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-26 15:14:42,705 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-26 15:14:43,474 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2022-12-26 15:14:43,739 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-26 15:14:43,758 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Started EmployeeDetailsApplication in 8.014 seconds (JVM running for 8.599)
-2022-12-26 15:15:55,764 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Starting EmployeeDetailsApplication using Java 1.8.0_333 on LTIN344858 with PID 54292 (C:\Users\2048604\Downloads\EmployeeDetails\EmployeeDetails\target\classes started by 2048604 in C:\Users\2048604\Downloads\EmployeeDetails\EmployeeDetails)
-2022-12-26 15:15:55,765 [DEBUG] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
-2022-12-26 15:15:55,765 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] No active profile set, falling back to default profiles: default
-2022-12-26 15:15:55,819 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-12-26 15:15:55,819 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-12-26 15:15:56,469 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-26 15:15:56,540 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
-2022-12-26 15:15:57,482 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
-2022-12-26 15:15:57,497 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
-2022-12-26 15:15:57,497 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-12-26 15:15:57,596 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
-2022-12-26 15:15:57,597 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1778 ms
-2022-12-26 15:15:57,643 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
-2022-12-26 15:15:58,303 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
-2022-12-26 15:15:58,315 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDetails'
-2022-12-26 15:15:58,612 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-26 15:15:58,724 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
-2022-12-26 15:15:58,978 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-12-26 15:15:59,116 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-12-26 15:15:59,882 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-26 15:15:59,900 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-26 15:16:00,524 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-26 15:16:01,019 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2022-12-26 15:16:01,174 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-26 15:16:01,183 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Started EmployeeDetailsApplication in 5.867 seconds (JVM running for 6.386)
-2022-12-26 15:16:36,736 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-26 15:16:36,736 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-12-26 15:16:36,737 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
-2022-12-26 15:16:37,103 [INFO] com.example.EmployeeDetails.controller.EmployeeController [http-nio-8080-exec-1] Retrieved data
-2022-12-26 15:16:37,103 [TRACE] com.example.EmployeeDetails.controller.EmployeeController [http-nio-8080-exec-1] fatal error
+2023-01-02 11:53:13,436 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Starting EmployeeDetailsApplication using Java 1.8.0_333 on LTIN344858 with PID 74208 (C:\Users\2048604\git\employeedetails\EmployeeDetails\target\classes started by 2048604 in C:\Users\2048604\git\employeedetails\EmployeeDetails)
+2023-01-02 11:53:13,506 [DEBUG] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2023-01-02 11:53:13,514 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-01-02 11:53:13,458 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Starting EmployeeDetailsApplication using Java 1.8.0_333 on LTIN344858 with PID 78244 (C:\Users\2048604\git\employeedetails\EmployeeDetails\target\classes started by 2048604 in C:\Users\2048604\git\employeedetails\EmployeeDetails)
+2023-01-02 11:53:13,848 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02 11:53:13,851 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02 11:53:13,851 [DEBUG] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2023-01-02 11:53:13,851 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-01-02 11:53:14,185 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02 11:53:14,185 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02 11:53:14,639 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Starting EmployeeDetailsApplication using Java 1.8.0_333 on LTIN344858 with PID 79592 (C:\Users\2048604\git\employeedetails\EmployeeDetails\target\classes started by 2048604 in C:\Users\2048604\git\employeedetails\EmployeeDetails)
+2023-01-02 11:53:14,641 [DEBUG] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2023-01-02 11:53:14,641 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-01-02 11:53:14,846 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02 11:53:14,847 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02 11:53:17,249 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 11:53:17,348 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 11:53:17,961 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 535 ms. Found 1 JPA repository interfaces.
+2023-01-02 11:53:17,964 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 584 ms. Found 1 JPA repository interfaces.
+2023-01-02 11:53:18,380 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 11:53:18,989 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 479 ms. Found 1 JPA repository interfaces.
+2023-01-02 11:53:23,082 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-02 11:53:23,152 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-02 11:53:23,153 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-02 11:53:23,170 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-02 11:53:23,221 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-02 11:53:23,248 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-02 11:53:23,251 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-02 11:53:23,268 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-02 11:53:23,269 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-02 11:53:24,002 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-02 11:53:24,003 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9816 ms
+2023-01-02 11:53:24,063 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-02 11:53:24,065 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 10211 ms
+2023-01-02 11:53:24,073 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-02 11:53:24,073 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9225 ms
+2023-01-02 11:53:24,241 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-02 11:53:24,421 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-02 11:53:25,058 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-02 11:53:27,676 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-02 11:53:27,710 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDetails'
+2023-01-02 11:53:27,930 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-02 11:53:27,959 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDetails'
+2023-01-02 11:53:28,452 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-02 11:53:28,488 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDetails'
+2023-01-02 11:53:30,090 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 11:53:30,128 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 11:53:30,253 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 11:53:30,600 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-01-02 11:53:30,607 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-01-02 11:53:30,861 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-01-02 11:53:31,924 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-02 11:53:31,928 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-02 11:53:31,984 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-02 11:53:32,909 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 11:53:32,909 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 11:53:32,924 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 11:53:36,933 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 11:53:36,954 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 11:53:36,968 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 11:53:36,970 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 11:53:36,991 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 11:53:37,002 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 11:53:39,433 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 11:53:39,574 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 11:53:39,659 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 11:53:42,369 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-02 11:53:42,948 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2023-01-02 11:53:43,188 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-01-02 11:53:43,329 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2023-01-02 11:53:43,428 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 11:53:43,450 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2023-01-02 11:53:43,585 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2023-01-02 11:53:43,597 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-01-02 11:53:43,647 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02 11:53:43,702 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-02 11:53:43,741 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Started EmployeeDetailsApplication in 32.644 seconds (JVM running for 34.665)
+2023-01-02 11:53:43,838 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-01-02 11:53:43,927 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-01-02 11:53:43,937 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 11:53:43,973 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2023-01-02 11:53:44,031 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2023-01-02 11:53:44,044 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-01-02 11:53:44,084 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-02 11:53:44,191 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-01-02 11:54:35,269 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Starting EmployeeDetailsApplication using Java 1.8.0_333 on LTIN344858 with PID 53672 (C:\Users\2048604\git\employeedetails\EmployeeDetails\target\classes started by 2048604 in C:\Users\2048604\git\employeedetails\EmployeeDetails)
+2023-01-02 11:54:35,270 [DEBUG] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2023-01-02 11:54:35,270 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-01-02 11:54:35,410 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-02 11:54:35,411 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-02 11:54:36,909 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 11:54:37,066 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interfaces.
+2023-01-02 11:54:39,195 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-02 11:54:39,222 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-02 11:54:39,222 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-01-02 11:54:39,443 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-02 11:54:39,443 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4031 ms
+2023-01-02 11:54:39,546 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-02 11:54:41,076 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-02 11:54:41,099 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/EmployeeDetails'
+2023-01-02 11:54:41,879 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 11:54:42,121 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-01-02 11:54:42,590 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-02 11:54:43,047 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 11:54:44,910 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 11:54:44,933 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 11:54:45,989 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 11:54:47,747 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-02 11:54:47,867 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-02 11:54:47,910 [INFO] com.example.EmployeeDetails.EmployeeDetailsApplication [restartedMain] Started EmployeeDetailsApplication in 13.327 seconds (JVM running for 14.055)
